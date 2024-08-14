@@ -1,0 +1,103 @@
+/*Valores de reseteo */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Personalización dinámico de fondo del sitio web*/
+body{
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+/* Estilos Generales de la Página*/
+.contenedor-principal > *{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+    gap: 5px;
+}
+
+/*Encabezado: logo + nombre logo*/
+header{
+    width: auto;
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 70px;
+}
+
+h1{
+    text-align: center;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	letter-spacing: 3px;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+.logo-imagen{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo-texto{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: start;
+    align-items: center;
+}
+*/
+.logo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 15px 20px;
+}
+
+.logo img{
+    width: 400px;
+    height: 70px;
+    margin-right: 8px;
+    margin-left: 40px;
+}
+
+/* Texto Aviso de Privacidad*/
+#imagen{
+    display: flex;
+    justify-content: center;
+    padding: 25px 25px 5px;
+} 
+
+#linea{
+    width: 800px;
+    align-items: center;
+}
+
+.texto{
+    color: white;
+    margin: 15px;
+    border: 10px solid white;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+
+h2, h3, p{
+    padding: 10px 35px;
+}
