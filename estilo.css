@@ -112,7 +112,7 @@ body{
 /*Estilos de la Página Principal*/
 /*           CABECERA           */
 header{
-    max-width: 3000px;
+    max-width: 1400px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -160,7 +160,7 @@ nav{
 
 /*              FORMULARIO             */ 
 section{
-    max-width: 1400px;
+    max-width: 3000px;
     display: grid;
     gap: 1em;
     justify-items: center;
