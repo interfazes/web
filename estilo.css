@@ -112,7 +112,7 @@ body{
 /*Estilos de la Página Principal*/
 /*           CABECERA           */
 header{
-    max-width: 1400px;
+    max-width: 3000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
